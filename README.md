@@ -1,10 +1,7 @@
-# Formal and Automatic Languages First Year
-Labs and/or course materials for LFA
+# LAB 1: first text parsing code 
 
-# Table of Contents and Links:
+The files in this section are written in Python 3.14, describing functionalities for text parsing systems with the intent to further implement true DFA machines.
 
-1) Lab 1 --> learning to do out first DFA and trying to do a Python scrip for said dfa
-2) Lab 2
-3) Lab 3
 
-/to be continued/
+# Observations
+In the future we will implement a better, easily readable. CLeaner code, less function with call to other functions, compact, better for users.
