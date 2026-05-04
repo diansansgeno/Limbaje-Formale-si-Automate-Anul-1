@@ -11,3 +11,9 @@ The files in this section are written in Python 3.14, describing functionalities
 
 # Observations
 In the future we will implement a better, easily readable. CLeaner code, less function with call to other functions, compact, better for users.
+#LAB 2
+Better implementation promissed in Lab 1.
+The code can now be used for easier DFA implementation and test processing.
+
+#Observations: 
+nan
