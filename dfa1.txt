@@ -1,0 +1,19 @@
+<sigma>
+define lang = [0, 1];
+<end_sigma>
+
+<Q>
+define states = [q0, q1, q2];
+<end_Q>
+
+<F>
+q2;
+<end_F>
+
+<delta>
+define delta_function = [[q0, q1], [q0, q2], [q0, q2]];
+<end_delta>
+
+<s>
+q0;
+<end_s>
