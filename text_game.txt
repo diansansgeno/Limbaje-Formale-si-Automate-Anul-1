@@ -1,0 +1,110 @@
+<sigma>
+[N1, N2, E1, E2, S1, S2, W1, W2, P, D]
+<end_sigma>
+
+<Q>
+[Hallway_noPotion, Library_noPotion, Kitchen_noPotion, Dining_noPotion, Garden_noPotion, Hell_noPotion, Heaven_noPotion, Hallway_hasPotion, Library_hasPotion, Kitchen_hasPotion, Dining_hasPotion, Garden_hasPotion, Hell_hasPotion, Heaven_hasPotion]
+<end_Q>
+
+<F>
+[Hell_noPotion, Heaven_noPotion, Hell_hasPotion, Heaven_hasPotion];
+<end_F>
+
+<delta>
+[Hallway_noPotion, N1, Kitchen_noPotion]
+[Hallway_noPotion, S1, Hallway_noPotion]
+[Hallway_noPotion, E1, Hallway_noPotion]
+[Hallway_noPotion, W1, Library_noPotion]
+[Library_noPotion, N1, Library_noPotion]
+[Library_noPotion, S1, Library_noPotion]
+[Library_noPotion, W1, Library_noPotion]
+[Library_noPotion, E1, Hallway_noPotion]
+[Kitchen_noPotion, N1, Kitchen_noPotion]
+[Kitchen_noPotion, S1, Hallway_noPotion]
+[Kitchen_noPotion, E1, Kitchen_noPotion]
+[Kitchen_noPotion, W1, Dining_noPotion]
+[Dining_noPotion, N1, Dining_noPotion]
+[Dining_noPotion, S1, Dining_noPotion]
+[Dining_noPotion, E1, Kitchen_noPotion]
+[Dining_noPotion, W1, Garden_noPotion]
+[Garden_noPotion, N1, Garden_noPotion]
+[Garden_noPotion, S1, Hell_noPotion]
+[Garden_noPotion, E1, Dining_noPotion]
+[Garden_noPotion, W1, Garden_noPotion]
+
+[Hallway_noPotion, N2, Kitchen_noPotion]
+[Hallway_noPotion, S2, Hallway_noPotion]
+[Hallway_noPotion, E2, Hallway_noPotion]
+[Hallway_noPotion, W2, Library_noPotion]
+[Library_noPotion, N2, Library_noPotion]
+[Library_noPotion, S2, Library_noPotion]
+[Library_noPotion, W2, Library_noPotion]
+[Library_noPotion, E2, Hallway_noPotion]
+[Kitchen_noPotion, N2, Kitchen_noPotion]
+[Kitchen_noPotion, S2, Hallway_noPotion]
+[Kitchen_noPotion, E2, Kitchen_noPotion]
+[Kitchen_noPotion, W2, Dining_noPotion]
+[Dining_noPotion, N2, Dining_noPotion]
+[Dining_noPotion, S2, Dining_noPotion]
+[Dining_noPotion, E2, Kitchen_noPotion]
+[Dining_noPotion, W2, Garden_noPotion]
+[Garden_noPotion, N2, Garden_noPotion]
+[Garden_noPotion, S2, Heaven_noPotion]
+[Garden_noPotion, E2, Dining_noPotion]
+[Garden_noPotion, W2, Garden_noPotion]
+
+[Library_noPotion, P, Library_hasPotion]
+
+[Hallway_hasPotion, D, Hallway_noPotion]
+[Library_hasPotion, D, Library_noPotion]
+[Kitchen_hasPotion, D, Kitchen_noPotion]
+[Dining_hasPotion, D, Dining_noPotion]
+[Garden_hasPotion, D, Garden_noPotion]
+
+[Hallway_hasPotion, N1, Kitchen_hasPotion]
+[Hallway_hasPotion, S1, Hallway_hasPotion]
+[Hallway_hasPotion, E1, Hallway_hasPotion]
+[Hallway_hasPotion, W1, Library_hasPotion]
+[Library_hasPotion, N1, Library_hasPotion]
+[Library_hasPotion, S1, Library_hasPotion]
+[Library_hasPotion, W1, Library_hasPotion]
+[Library_hasPotion, E1, Hallway_hasPotion]
+[Kitchen_hasPotion, N1, Kitchen_hasPotion]
+[Kitchen_hasPotion, S1, Hallway_hasPotion]
+[Kitchen_hasPotion, E1, Kitchen_hasPotion]
+[Kitchen_hasPotion, W1, Dining_hasPotion]
+[Dining_hasPotion, N1, Dining_hasPotion]
+[Dining_hasPotion, S1, Dining_hasPotion]
+[Dining_hasPotion, E1, Kitchen_hasPotion]
+[Dining_hasPotion, W1, Garden_hasPotion]
+[Garden_hasPotion, N1, Garden_hasPotion]
+[Garden_hasPotion, S1, Hell_hasPotion]
+[Garden_hasPotion, E1, Dining_hasPotion]
+[Garden_hasPotion, W1, Garden_hasPotion]
+
+[Hallway_hasPotion, N2, Kitchen_hasPotion]
+[Hallway_hasPotion, S2, Hallway_hasPotion]
+[Hallway_hasPotion, E2, Hallway_hasPotion]
+[Hallway_hasPotion, W2, Library_hasPotion]
+[Library_hasPotion, N2, Library_hasPotion]
+[Library_hasPotion, S2, Library_hasPotion]
+[Library_hasPotion, W2, Library_hasPotion]
+[Library_hasPotion, E2, Hallway_hasPotion]
+[Kitchen_hasPotion, N2, Kitchen_hasPotion]
+[Kitchen_hasPotion, S2, Hallway_hasPotion]
+[Kitchen_hasPotion, E2, Kitchen_hasPotion]
+[Kitchen_hasPotion, W2, Dining_hasPotion]
+[Dining_hasPotion, N2, Dining_hasPotion]
+[Dining_hasPotion, S2, Dining_hasPotion]
+[Dining_hasPotion, E2, Kitchen_hasPotion]
+[Dining_hasPotion, W2, Garden_hasPotion]
+[Garden_hasPotion, N2, Garden_hasPotion]
+[Garden_hasPotion, S2, Heaven_hasPotion]
+[Garden_hasPotion, E2, Dining_hasPotion]
+[Garden_hasPotion, W2, Garden_hasPotion]
+
+<end_delta>
+
+<s>
+Hallway_noPotion;
+<end_s>
