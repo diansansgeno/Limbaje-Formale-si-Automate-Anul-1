@@ -17,3 +17,6 @@ The code can now be used for easier DFA implementation and test processing.
 
 #Observations: 
 nan
+# Lab 3
+
+Full implementation off both deterministic and nondeterministic finite automata.
